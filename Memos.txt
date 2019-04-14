@@ -1,0 +1,17 @@
+
+Ch05
+
+
+・zipは複数のリストをひとつにまとめる
+・
+
+・TODO
+	irisでもcharacter transitionをやってみる
+	
+	for i を使って npのi番目の値を取り出す方法
+	eigen_pairs = [np.abs(eigen_vals[i], eigen_vecs[:, i]) for i in range(len(eigen_vals))]
+	課題 
+		1)PCAで共分散行列にするメリットがわからない
+		2)LDAの作成ロジックがよくわかっていない。
+		3)PCAとLDAの違いがよくわからない。メリットとデメリット
+	
