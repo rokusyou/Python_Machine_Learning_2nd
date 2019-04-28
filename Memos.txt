@@ -42,3 +42,39 @@ Ch05
 		※新しいデータ点を射影するたびに、元のトレーニングセットデータを再利用しなければならない。
 			なぜならカーネルPCAはメモリーベースな手法だから。＜＝どういう意味？？
 			
+Ch06
+	startified k-fold corss-validation
+		各サブセットでクラスの比率を保持
+		K-foldの大きなメリットとして計算処理を分散化できること！！
+		
+	6.5.2
+		適合率 PRE
+		再現率 REC
+		F1-Score ※ PRE,RECの調和平均
+
+Datasets
+	ch06
+	Breast Cancer Wisconsin
+	AB desition
+	https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data
+	
+	
+	
+
+
+
+TODO
+	class transform
+		Melon,Orange <=> 0,1
+		One-hot transform
+		
+		
+normaization => 最大値と最小値
+stanardization => 平均値と標準偏差
+
+
+
+バリアンスとバイアスの関係が理解不能だったが、学習不足か過学習の事だということが分かった。 例えば 「バリアンスとバイアスはトレードオフ」 の言い換えは 「過学習 = バリアンスが高い 、学習不足 = バイアスが高い」 or 「学習不足 = バリアンスが低い 、過学習 = バイアスが低い」
+
+
+
